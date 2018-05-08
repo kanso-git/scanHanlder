@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1156aa7-9c81-4513-872d-e57cd9d7fc6d" name="Default" comment="" />
+    <list default="true" id="e1156aa7-9c81-4513-872d-e57cd9d7fc6d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/unine/DumpDevices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/unine/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/unine/Thermometer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/unine/USBDeviceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scanhandler.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/unine/Usb4JavaHigh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/unine/Usb4JavaHigh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/unine/UsbLowPos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/unine/UsbLowPos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/unine/Usb4JavaHigh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/unine/UsbLowPos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/unine/UsbLowPos.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,27 +32,19 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
+            <state relative-caret-position="884">
               <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsbLowPos.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsbLowPos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/UsbLowPos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="284">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,20 +53,52 @@
       <file leaf-file-name="Usb4JavaHigh.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/Usb4JavaHigh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state relative-caret-position="935">
+              <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1461#1649#0" expanded="true" />
+                <element signature="e#1648#1649#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsbInterface.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/usb/usb-api/1.0.2/usb-api-1.0.2.jar!/javax/usb/UsbInterface.class">
+      <file leaf-file-name="Thermometer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/Thermometer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2477#2665#0" expanded="true" />
+                <element signature="e#2664#2665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/Sample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4211#4238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DumpDevices.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/DumpDevices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2873">
+              <caret line="169" column="1" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +115,20 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="84" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="84" />
+            <state relative-caret-position="187">
+              <caret line="11" column="84" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="USBDeviceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/USBDeviceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="109" column="45" selection-start-line="106" selection-start-column="16" selection-end-line="109" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,12 +149,20 @@
     <findStrings>
       <find>ShowTopology</find>
       <find>javax.usb</find>
+      <find>§</find>
+      <find>print</find>
+      <find>outer</find>
+      <find>sendData</find>
+      <find>readMessage</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../../cscf/iff" value="2975250091000" />
+        <entry key="D:/../cscf/iff" value="2975250091000" />
       </map>
     </option>
   </component>
@@ -110,12 +170,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ch/unine/scanhandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/unine/Usb4JavaHigh.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/unine/ScanHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/javax.usb.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch/unine/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/unine/UsbDeviceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/unine/USBDeviceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/unine/Usb4JavaHigh.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/unine/UsbLowPos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/unine/sample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/unine/Sample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/unine/DumpDevices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/unine/Thermometer.java" />
       </list>
     </option>
   </component>
@@ -136,42 +202,68 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="23" />
+    <option name="x" value="-3" />
     <option name="width" value="1920" />
     <option name="height" value="1004" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="scanhandler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scanhandler" type="462c0819:PsiDirectoryNode" />
+              <item name="scanHanlder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scanHanlder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="scanhandler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="scanHanlder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scanHanlder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scanHanlder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scanHanlder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scanHanlder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scanHanlder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scanHanlder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scanHanlder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="unine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,12 +277,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UsbLowPos">
+  <component name="RunManager" selected="Application.Thermometer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.unine.App" />
+      <module name="scanhandler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.unine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DumpDevices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.unine.DumpDevices" />
+      <module name="scanhandler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.unine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.unine.Sample" />
+      <module name="scanhandler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.unine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Thermometer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.unine.Thermometer" />
       <module name="scanhandler" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -270,9 +395,15 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.UsbLowPos" />
+      <item itemvalue="Application.Thermometer" />
+      <item itemvalue="Application.Sample" />
+      <item itemvalue="Application.DumpDevices" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thermometer" />
+        <item itemvalue="Application.DumpDevices" />
+        <item itemvalue="Application.Sample" />
         <item itemvalue="Application.UsbLowPos" />
         <item itemvalue="Application.App" />
       </list>
@@ -297,36 +428,36 @@
     <option name="totallyTimeSpent" value="10835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="23" width="1920" height="1004" extended-state="0" />
+    <frame x="-3" y="0" width="1920" height="1004" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32918552" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32845894" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.248307" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918552" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13025211" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31447965" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31376976" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,56 +481,136 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ch/unine/USBDeviceTest.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ch/unine/Thermometer.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ch/unine/Thermometer.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ch/unine/Thermometer.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ch/unine/Thermometer.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>deviceInterface</expression-string>
+        <expression-string>irp</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>usbDevice.getActiveUsbConfiguration()</expression-string>
+        <expression-string>pipe.syncSubmit(irp)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>((NonHub) usbDevice).queue</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>org.usb4java.javax.NonHub</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>usbDevice.getSpeed()</expression-string>
+        <expression-string>pipe.syncSubmit(new byte[32])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>usbDevice.getUsbDeviceDescriptor()</expression-string>
+        <expression-string>pipe.syncSubmit(new byte[8])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>device.getUsbDeviceDescriptor()</expression-string>
+        <expression-string>pipe.syncSubmit(new byte[6])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hub.getAttachedUsbDevices()</expression-string>
+        <expression-string>pipe.syncSubmit(new byte[4])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>CommPortIdentifier</expression-string>
+        <expression-string>pipe.syncSubmit(new byte[2])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pipe.syncSubmit(new byte[12])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pipe.syncSubmit(data)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/Usb4JavaHigh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1461#1649#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javax.usb.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="84" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/UsbLowPos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -413,17 +624,13 @@
           <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1461#1649#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/usb/usb-api/1.0.2/usb-api-1.0.2.jar!/javax/usb/UsbInterface.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/usb/usb-api/1.0.2/usb-api-1.0.2.jar!/javax/usb/UsbInterface.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/javax.usb.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -449,54 +656,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/usb/usb-api/1.0.2/usb-api-1.0.2.jar!/javax/usb/UsbInterface.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/Usb4JavaHigh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/usb/usb-api/1.0.2/usb-api-1.0.2.jar!/javax/usb/UsbInterface.class" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="884">
           <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/App.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/usb4java/usb4java/1.2.0/usb4java-1.2.0.jar!/org/usb4java/LibUsb.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="84" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-17">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/UsbLowPos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="284">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/Usb4JavaHigh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1461#1649#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/USBDeviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="109" column="45" selection-start-line="106" selection-start-column="16" selection-end-line="109" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4211#4238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/DumpDevices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="169" column="1" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/unine/Thermometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2477#2665#0" expanded="true" />
+            <element signature="e#2664#2665#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -504,9 +749,81 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ProjectJDKs.UI">
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>scanhandler</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>IntelliJ IDEA Community Edition IC-181.4668.68</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.comm:comm:2.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

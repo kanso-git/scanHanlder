@@ -46,9 +46,8 @@ public class Usb4JavaHigh {
     }
 
 
-
     public void readMessage(UsbInterface iface,
-                            int endPoint){
+                            int endPoint) {
 
         UsbPipe pipe = null;
 
@@ -64,9 +63,32 @@ public class Usb4JavaHigh {
             pipe = endpoint.getUsbPipe();
             pipe.open();
 
-            byte[] data = new byte[8];
-            int received = pipe.syncSubmit(data);
-            System.out.println(received + " bytes received");
+            pipe.addUsbPipeListener(new UsbPipeListener() {
+                @Override
+                public void errorEventOccurred(UsbPipeErrorEvent event) {
+                    UsbException error = event.getUsbException();
+                    error.printStackTrace();
+                }
+
+                @Override
+                public void dataEventOccurred(UsbPipeDataEvent event) {
+                    byte[] data = event.getData();
+
+                    System.out.println(data + " bytes received");
+                    for (int i = 0; i < data.length; i++) {
+                        System.out.print(data[i] + " ");
+                    }
+                }
+            });
+
+            final byte[] bytes = new byte[64];
+            bytes[0] = (byte)0x04;
+            bytes[1] = (byte)0x20;
+            pipe.syncSubmit(bytes);
+
+          //  byte[] data = new byte[8];
+           // int received = pipe.syncSubmit(data);
+            //System.out.println(received + " bytes received");
 
             pipe.close();
 
@@ -89,7 +111,7 @@ public class Usb4JavaHigh {
     }
 
     public void readMessageAsynch(UsbInterface iface,
-                                  int endPoint){
+                                  int endPoint) {
 
         UsbPipe pipe = null;
 
@@ -106,18 +128,15 @@ public class Usb4JavaHigh {
 
             pipe.open();
 
-            pipe.addUsbPipeListener(new UsbPipeListener()
-            {
+            pipe.addUsbPipeListener(new UsbPipeListener() {
                 @Override
-                public void errorEventOccurred(UsbPipeErrorEvent event)
-                {
+                public void errorEventOccurred(UsbPipeErrorEvent event) {
                     UsbException error = event.getUsbException();
                     error.printStackTrace();
                 }
 
                 @Override
-                public void dataEventOccurred(UsbPipeDataEvent event)
-                {
+                public void dataEventOccurred(UsbPipeDataEvent event) {
                     byte[] data = event.getData();
 
                     System.out.println(data + " bytes received");
@@ -171,8 +190,8 @@ public class Usb4JavaHigh {
             pipe = endpoint.getUsbPipe();
             pipe.open();
 
-            byte[] initEP = new byte[] { 0x1b, '@' };
-            byte[] cutP = new byte[] { 0x1d, 'V', 1 };
+            byte[] initEP = new byte[]{0x1b, '@'};
+            byte[] cutP = new byte[]{0x1d, 'V', 1};
 
             String str = "nnnnnnnnn";
 

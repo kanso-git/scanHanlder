@@ -96,7 +96,7 @@ public class UsbLowPos {
 
                     System.out.println("Device Found");
                     getDeviceHandle(device);
-                    //LibUsb.claimInterface(handle, 0);
+                    LibUsb.claimInterface(handle, 0);
                 }
 
             }
